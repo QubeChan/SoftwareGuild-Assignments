@@ -6,6 +6,8 @@ Most recent revision:
 -->
 <html lang="en">
 
+  <!-- This head includes the favicon and title that will be displayed on the tab -->
+
   <head>
     <link rel="icon" href="images/ic_chocobo.png">
     <title>Jason's Portfolio</title>
@@ -18,67 +20,125 @@ Most recent revision:
         <h1>Portfolio for Jason Chan</h1>
         <img src="images/ic_chocobo.png" alt="Photo of a chocobo" width="100px">
       </header>
+      <hr />
+
+      <!-- This is the nav bar -->
+      <nav>
+        <p><a href="index.html">Home</a></p>
         <hr />
-
-        <!-- This is the nav bar -->
-        <nav>
-          <hr />
-          <p><a href="index.html">Home</a></p>
-          <hr />
-          <p><a href="projects.html">Projects</a></p>
-          <hr />
-          <p><a href="contact.html">Contact Me</a></p>
-          <hr />
-          <p><a href="testimonials.html">Testimonials</a></p>
-          <hr />
-        </nav>
-
-        <!-- This is div holds my youtube video. -->
-        <div id="bongo-cat-video">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/WRBMgZBHHaM?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        </div>
+        <p><a href="projects.html">Projects</a></p>
         <hr />
+        <p><a href="contact.html">Contact Me</a></p>
+        <hr />
+        <p><a href="testimonials.html">Testimonials</a></p>
+        <hr />
+      </nav>
 
-        <sec>
-          <!-- This is the first article. -->
-          <article id="about-me">
-            <h2><em>About Me</em></h2>
-            <p>Aspiring fullstack developer. I plan to work for <b>Google</b> eventually, but first I aim to work at a start up and have multiple side projects to test and work with new and upcoming technology and open-source code.</p>
-            <p>I have an artistic and imaginitive mind so I love messing around with graphic designs and recreating inspiring art projects I've seen. It doesn't even have to be art related I always like to recreate baked goods or food to DIY
-              woodcrafts.</p>
-          </article>
+      <!-- This is div holds my youtube video -->
+      <div id="bongo-cat-video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/WRBMgZBHHaM?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      </div>
+      <hr />
 
-          <!-- This is the second article. -->
-          <article id="past-experiences">
-            <h2><em>Past Experiences</em></h2>
-            <p>I attended Baruch College originally for <b><i>Accounting</i></b> but I found my passion in computers and graduated with a BBA in <b><i>Computer Information Systems</i></b>.</p>
-            <p>I've been working at my parent's family owned restaurant since graduating from college. Managing the books, inventory, employees, and filling in any position of staff depending on which department needs assisntance.</p>
-          </article>
+      <sec>
+        <!-- This article contains an image and information about the writer -->
+        <article id="aboutMe">
+          <h2><em>About Me</em></h2>
+          <figure>
+            <a href="#aboutMe">
+            <img src="images/aboutMe.jpg" alt="Photo of Jason" width="20%" id="imgAboutMe">
+            </a>
+          </figure>
 
-          <!-- This is the third article. -->
-          <article id="hobbies">
-            <h2><em>Hobbies</em></h2>
-            <p>I love reading manga which are Japanese comics during my free time. I have a whole list of manga that I read every week on multiple websites for example <a href="https://readms.net/">mangastream</a> or <a href="https://www.webtoons.com/en/">webtoons</a>
-              which update on a daily basis of manga or comics for readers to read for free.</p>
-            <p>I also love to play video games, I think my first video game I ever played was Super Mario Bros. on the NES console. Ever since then even if I don't have time to play games because of work I will buy their products in support of the
-              franchise.
-              I collect multiple gaming titles for example:
+          <p>Aspiring fullstack developer. I plan to work for <b>Google</b> eventually, but first I aim to work at a start up and have multiple side projects to test and work with new and upcoming technology and open-source code.</p>
+          <p>I have an artistic and imaginitive mind so I love messing around with graphic designs and recreating inspiring art projects I've seen. It doesn't even have to be art related I always like to recreate baked goods or food to DIY woodcrafts.
+          </p>
+        </article>
+
+        <!-- This article contains an image and information about the writer's history in a table -->
+        <article id="pastExperiences">
+          <h2><em>Past Experiences</em></h2>
+          <figure>
+            <a href="#pastExperiences"><img src="https://s16315.pcdn.co/wp-content/uploads/2015/12/mobile-experience.jpg" alt="Photo placeholder for past experiences" width="20%" id="imgPastExperiences">
+            </a>
+          </figure>
+
+          <table border="1" width="80%">
+            <caption><em><h3>Work and Education</h3></em></caption>
+            <tr>
+              <th><i>Years of Employment</i></th>
+              <th>Title</th>
+              <th>Company</th>
+            </tr>
+            <tr>
+              <td align="center"><i>2018-Present</i></td>
+              <td>Apprentice</td>
+              <td>The Software Guild</td>
+            </tr>
+            <tr>
+              <td align="center"><i>2012-2018</i></td>
+              <td>Manager</td>
+              <td>J.J.Chan's Garden</td>
+            </tr>
+            <tr>
+              <td align="center"><i>2012-2015</i></td>
+              <td>College Student</td>
+              <td>Baruch College</td>
+            </tr>
+          </table>
+        </article>
+
+        <!-- This article contains information about the writer's -->
+        <article id="hobbies">
+          <h2><em>Hobbies</em></h2>
+          <!-- This block holds mly hobbies image -->
+          <figure>
+            <a href="#hobbies"><img src="https://cdn.pixabay.com/photo/2016/03/23/09/13/one-piece-1274390_1280.jpg" alt="Photo placeholder for hobbies" width="20%" id="imgHobbies">
+            </a>
+          </figure>
+
+          <p>I love reading manga which are Japanese comics during my free time. I have a whole list of manga that I read every week on multiple websites for example <a href="https://readms.net/" target="_blank">mangastream</a> or <a href="https://www.webtoons.com/en/"
+              target="_blank">webtoons</a> which update on a daily basis of manga or comics for readers to read for free. Here's a small list of my favorite manga in order of importance.</p>
+          <ul>
+            <li>List of Manga</li>
+
+            <ol>
+              <li>One Piece</li>
+              <li>My Hero Academia</li>
+              <li>The Breaker</li>
+              <li>The Tower of God</li>
+              <li>The God of Highschool</li>
+              <li>Black Clover</li>
+              <li>The Seven Deadly Sins</li>
+              <li>The Promised Neverland</li>
+              <li>The Gamer</li>
+            </ol>
+
+          </ul>
+
+          <p>I also love to play video games, I think my first video game I ever played was Super Mario Bros. on the NES console. Ever since then even if I don't have time to play games because of work I will buy their products in support of the franchise.
+            I collect multiple gaming titles for example:
+            <ul>
+              <li><span style="border-style: dashed; border-color: #ffff99; border-radius: 10px">List of Games</span></li>
+
               <ul>
-                <li><span style="background-color:gray; color:white">Super Mario</span></li>
-                <li><span style="background-color:gray; color:white">Final Fantasy</span></li>
-                <li><span style="background-color:gray; color:white">Monster Hunter</span></li>
-                <li><span style="background-color:gray; color:white">One Piece</span></li>
-                <li><span style="background-color:gray; color:white">Megaman</span></li>
-                <li><span style="background-color:gray; color:white">Legend of Zelda</span></li>
+                <li>Super Mario</li>
+                <li>Final Fantasy</li>
+                <li>Monster Hunter</li>
+                <li>One Piece</li>
+                <li>Megaman</li>
+                <li>Legend of Zelda</li>
               </ul>
-            </p>
-          </article>
-        </sec>
-        <hr />
 
-        <footer>
-          <p>&copy; 2018 Jason Chan. All rights reserved.</p>
-        </footer>
+            </ul>
+          </p>
+        </article>
+      </sec>
+      <hr />
+
+      <footer>
+        <p>&copy; 2018 Jason Chan. All rights reserved.</p>
+      </footer>
     </main>
   </body>
 
