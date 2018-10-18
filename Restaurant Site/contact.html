@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--
+Name: Jason Chan
+Date Created: Oct. 17, 2018
+Most recent revision:
+-->
+<html lang="en">
+
+  <head>
+    <link rel="icon" href="http://pluspng.com/img-png/one-piece-png-one-piece-logo-1600.png">
+    <title>Contact Us</title>
+  </head>
+
+  <body>
+    <main>
+
+      <header style="text-align:center;">
+        <h1>Baratie</h1>
+      </header>
+
+      <!-- This is the nav bar -->
+      <nav style="text-align: center">
+        <hr />
+        <p>
+          <a href="index.html">Home</a>
+          <a href="menu.html">Menu</a>
+          <a href="contact.html">Contact Me</a>
+        </p>
+        <hr />
+      </nav>
+
+      <form action="index.html" method="post">
+        <!-- Form without use of table -->
+        <!--
+        <label for="fullName">Full Name: </label><input type="text" id="fullName" name="fullName" value="" required><br />
+        <label for="email">Email: </label><input type="text" id="email" name="email" value="" required><br />
+        <label for="phone">Phone: </label><input type="text" id="phone" name="phone" value="" required><br />
+
+        <label for="inquiry">Reason for Inquiry: </label>
+        <select name="inquiry">
+          <option value="default" selected>Catering</option>
+          <option value="private">Private Party</option>
+          <option value="feedback">Feedback</option>
+          <option value="other">Other</option>
+        </select><br />
+
+        <label for="questionnaire">Have you been to the restaurant? </label>
+        <input type="radio" id="choiceNo" name="questionnaire" value="no"><label for="choiceNo"> No</label>
+        <input type="radio" id="choiceYes" name="questionnaire" value="yes"><label for="choiceYes"> Yes</label><br />
+
+        <label for="availability">Best days to contact you?</label>
+        <input type="checkbox" id="monday" name="availability" value="monday"><label for="monday"> M</label>
+        <input type="checkbox" id="tuesday" name="availability" value="tuesday"><label for="tuesday"> T</label>
+        <input type="checkbox" id="wednesday" name="availability" value="wednesday"><label for="wednesday"> W</label>
+        <input type="checkbox" id="thursday" name="availability" value="thursday"><label for="thursday"> Th</label>
+        <input type="checkbox" id="friday" name="availability" value="friday"><label for="friday"> F</label><br />
+
+        <input type="submit" name="sendRequest" value="Send Request">
+        -->
+
+        <!-- Form with use of table-->
+        <table width="90%">
+          <tr>
+            <td align="right"><label for="fullName">Full Name: </label></td>
+            <td><input type="text" id="fullName" name="fullName" value="" required></td>
+          </tr>
+
+          <tr>
+            <td align="right"><label for="email">Email: </label></td>
+            <td><input type="text" id="email" name="email" value="" required></td>
+          </tr>
+
+          <tr>
+            <td align="right"><label for="phone">Phone: </label></td>
+            <td><input type="text" id="phone" name="phone" value="" required></td>
+          </tr>
+
+          <tr>
+            <td align="right"><label for="inquiry">Reason for Inquiry: </label></td>
+            <td>
+              <select name="inquiry">
+                <option value="default" selected>Catering</option>
+                <option value="private">Private Party</option>
+                <option value="feedback">Feedback</option>
+                <option value="other">Other</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td align="right"><label for="questionnaire">Have you been to the restaurant? </label></td>
+            <td>
+              <input type="radio" id="choiceNo" name="questionnaire" value="no"><label for="choiceNo"> No</label>
+              <input type="radio" id="choiceYes" name="questionnaire" value="yes"><label for="choiceYes"> Yes</label>
+            </td>
+          </tr>
+
+          <tr>
+            <td align="right"><label for="availability">Best days to contact you?</label></td>
+            <td>
+              <input type="checkbox" id="monday" name="availability" value="monday"><label for="monday"> M</label>
+              <input type="checkbox" id="tuesday" name="availability" value="tuesday"><label for="tuesday"> T</label>
+              <input type="checkbox" id="wednesday" name="availability" value="wednesday"><label for="wednesday"> W</label>
+              <input type="checkbox" id="thursday" name="availability" value="thursday"><label for="thursday"> Th</label>
+              <input type="checkbox" id="friday" name="availability" value="friday"><label for="friday"> F</label>
+            </td>
+          </tr>
+
+          <tr>
+            <td colspan="2" align="center"><input type="submit" name="sendRequest" value="Send Request"></td>
+          </tr>
+        </table>
+
+      </form>
+
+      <hr />
+      <footer style="text-align: center;">
+        <b>168 Chopper Lane, Sambas Region, East Blue, 01337<br /><br />
+        +3(363)366-8744</b>
+      </footer>
+
+    </main>
+  </body>
+
+</html>
