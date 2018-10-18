@@ -11,6 +11,29 @@ Most recent revision:
   <head>
     <link rel="icon" href="images/ic_chocobo.png">
     <title>Jason's Portfolio</title>
+    <style>
+      body {
+        background-color: lightblue;
+      }
+
+      hr {
+        width: 88%;
+        border: 1px solid #ff9900;
+      }
+
+      header,
+      footer {
+        color: #ff9900;
+      }
+
+      .outline{
+        border: thick solid white;
+      }
+
+      #pastExperiences{
+        border:thin solid orange;
+      }
+    </style>
   </head>
 
   <body>
@@ -18,31 +41,32 @@ Most recent revision:
 
       <header>
         <h1>Portfolio for Jason Chan</h1>
+        <!--
         <img src="images/ic_chocobo.png" alt="Photo of a chocobo" width="100px">
+        -->
       </header>
-      <hr />
 
       <!-- This is the nav bar -->
       <nav>
+        <hr />
         <p><a href="index.html">Home</a></p>
-        <hr />
         <p><a href="projects.html">Projects</a></p>
-        <hr />
         <p><a href="contact.html">Contact Me</a></p>
-        <hr />
         <p><a href="testimonials.html">Testimonials</a></p>
         <hr />
       </nav>
 
       <!-- This is div holds my youtube video -->
+      <!--
       <div id="bongo-cat-video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/WRBMgZBHHaM?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
       <hr />
+      -->
 
       <sec>
         <!-- This article contains an image and information about the writer -->
-        <article id="aboutMe">
+        <article class="outline" id="aboutMe">
           <h2><em>About Me</em></h2>
           <figure>
             <a href="#aboutMe">
@@ -99,7 +123,7 @@ Most recent revision:
 
           <p>I love reading manga which are Japanese comics during my free time. I have a whole list of manga that I read every week on multiple websites for example <a href="https://readms.net/" target="_blank">mangastream</a> or <a href="https://www.webtoons.com/en/"
               target="_blank">webtoons</a> which update on a daily basis of manga or comics for readers to read for free. Here's a small list of my favorite manga in order of importance.</p>
-          <ul>
+          <ul class="outline">
             <li>List of Manga</li>
 
             <ol>
@@ -119,7 +143,7 @@ Most recent revision:
           <p>I also love to play video games, I think my first video game I ever played was Super Mario Bros. on the NES console. Ever since then even if I don't have time to play games because of work I will buy their products in support of the franchise.
             I collect multiple gaming titles for example:
             <ul>
-              <li><span style="border-style: dashed; border-color: #ffff99; border-radius: 10px">List of Games</span></li>
+              <li><span style="border-style: dashed; border-color: #ff9900; border-radius: 10px">List of Games</span></li>
 
               <ul>
                 <li>Super Mario</li>
