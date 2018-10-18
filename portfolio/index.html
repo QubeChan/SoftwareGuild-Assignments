@@ -11,6 +11,7 @@ Most recent revision:
   <head>
     <link rel="icon" href="images/ic_chocobo.png">
     <title>Jason's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles/teststyles.css">
   </head>
 
   <body>
@@ -18,35 +19,36 @@ Most recent revision:
 
       <header>
         <h1>Portfolio for Jason Chan</h1>
+        <!--
         <img src="images/ic_chocobo.png" alt="Photo of a chocobo" width="100px">
+        -->
       </header>
-      <hr />
 
       <!-- This is the nav bar -->
       <nav>
+        <hr />
         <p><a href="index.html">Home</a></p>
-        <hr />
         <p><a href="projects.html">Projects</a></p>
-        <hr />
         <p><a href="contact.html">Contact Me</a></p>
-        <hr />
         <p><a href="testimonials.html">Testimonials</a></p>
         <hr />
       </nav>
 
       <!-- This is div holds my youtube video -->
+      <!--
       <div id="bongo-cat-video">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/WRBMgZBHHaM?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
       <hr />
+      -->
 
       <sec>
         <!-- This article contains an image and information about the writer -->
-        <article id="aboutMe">
+        <article class="myBorder" id="aboutMe">
           <h2><em>About Me</em></h2>
           <figure>
             <a href="#aboutMe">
-            <img src="images/aboutMe.jpg" alt="Photo of Jason" width="20%" id="imgAboutMe">
+            <img src="images/aboutMe.jpg" alt="Photo of Jason" id="imgAboutMe">
             </a>
           </figure>
 
@@ -59,7 +61,7 @@ Most recent revision:
         <article id="pastExperiences">
           <h2><em>Past Experiences</em></h2>
           <figure>
-            <a href="#pastExperiences"><img src="https://s16315.pcdn.co/wp-content/uploads/2015/12/mobile-experience.jpg" alt="Photo placeholder for past experiences" width="20%" id="imgPastExperiences">
+            <a href="#pastExperiences"><img src="https://s16315.pcdn.co/wp-content/uploads/2015/12/mobile-experience.jpg" alt="Photo placeholder for past experiences" id="imgPastExperiences">
             </a>
           </figure>
 
@@ -93,13 +95,13 @@ Most recent revision:
           <h2><em>Hobbies</em></h2>
           <!-- This block holds mly hobbies image -->
           <figure>
-            <a href="#hobbies"><img src="https://cdn.pixabay.com/photo/2016/03/23/09/13/one-piece-1274390_1280.jpg" alt="Photo placeholder for hobbies" width="20%" id="imgHobbies">
+            <a href="#hobbies"><img src="https://cdn.pixabay.com/photo/2016/03/23/09/13/one-piece-1274390_1280.jpg" alt="Photo placeholder for hobbies" id="imgHobbies">
             </a>
           </figure>
 
           <p>I love reading manga which are Japanese comics during my free time. I have a whole list of manga that I read every week on multiple websites for example <a href="https://readms.net/" target="_blank">mangastream</a> or <a href="https://www.webtoons.com/en/"
               target="_blank">webtoons</a> which update on a daily basis of manga or comics for readers to read for free. Here's a small list of my favorite manga in order of importance.</p>
-          <ul>
+          <ul class="myBorder">
             <li>List of Manga</li>
 
             <ol>
@@ -119,8 +121,7 @@ Most recent revision:
           <p>I also love to play video games, I think my first video game I ever played was Super Mario Bros. on the NES console. Ever since then even if I don't have time to play games because of work I will buy their products in support of the franchise.
             I collect multiple gaming titles for example:
             <ul>
-              <li><span style="border-style: dashed; border-color: #ffff99; border-radius: 10px">List of Games</span></li>
-
+              <li>List of Games</li>
               <ul>
                 <li>Super Mario</li>
                 <li>Final Fantasy</li>
