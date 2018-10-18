@@ -1,0 +1,32 @@
+body {
+  background-color: lightblue;
+}
+
+hr {
+  width: 88%;
+  border: 1px solid #ff9900;
+}
+
+header, footer {
+  color: #ff9900;
+}
+
+.myBorder {
+  border: thick solid white;
+}
+
+#pastExperiences {
+  border: thin solid orange;
+}
+
+#imgAboutMe {
+  width: 20%;
+}
+
+#imgPastExperiences {
+  width: 20%;
+}
+
+#imgHobbies {
+  width: 20%;
+}
