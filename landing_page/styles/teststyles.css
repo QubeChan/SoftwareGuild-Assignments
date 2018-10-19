@@ -1,0 +1,100 @@
+body {
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  margin-bottom: 65px;
+}
+
+header, footer {
+  width: 100%;
+  background-color: #1e1e1e;
+}
+
+header {
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+section {
+  color: black;
+  padding-top: 5px;
+}
+
+#sectionContent {
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: black;
+}
+
+form {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  width: 49%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  color: white;
+}
+
+hr {
+  width: 88%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+}
+
+table, th, td {
+  border: 1px solid white;
+  text-align: center;
+}
+
+#navBar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navBar {
+  float: left;
+  width: 25%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navBar a {
+  text-decoration: none;
+}
+
+.navBar a:hover {
+  color: #fc4d1e;
+}
+
+#imgBanner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 99%;
+}
