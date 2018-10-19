@@ -10,73 +10,87 @@ Most recent revision: Oct. 18, 2018
 
   <head>
     <link rel="icon" href="images/ic_chocobo.png">
-    <title>Jason's Portfolio</title>
+    <title>Contact Me</title>
     <link rel="stylesheet" type="text/css" href="styles/teststyles.css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   </head>
 
   <body>
     <main>
+      <section style="background-color: #1e1e1e; color: white;">
 
-      <header>
-        <h1>Contact Me</h1>
-      </header>
+        <header>
+          <h1>Contact Me</h1>
+        </header>
 
-      <!-- This is the nav bar -->
-      <nav>
-        <hr />
-        <ul id="navBar">
-          <li class="navBar"><a href="index.html">Home</a></li>
-          <li class="navBar"><a href="projects.html">Projects</a></li>
-          <li class="navBar"><a href="contact.html">Contact Me</a></li>
-          <li class="navBar"><a href="testimonials.html">Testimonials</a></li>
-        </ul>
-        <hr />
-      </nav>
+        <!-- This is the nav bar -->
+        <nav>
+          <hr />
+          <ul id="navBar">
+            <li class="navBar"><a href="index.html">Home</a></li>
+            <li class="navBar"><a href="projects.html">Projects</a></li>
+            <li class="navBar"><a href="contact.html">Contact Me</a></li>
+            <li class="navBar"><a href="testimonials.html">Testimonials</a></li>
+          </ul>
+        </nav>
 
-      <h2>Information Request</h2>
-      <!-- This is a form -->
-      <form action="submit.html" method="post">
+        <!-- This div is the banner for my image it will take the width -->
+        <div class="banner">
+          <img src="images/banner.jpg" alt="Banner Photo" id="imgBanner">
+      </div>
 
-        <!-- input type text form -->
-        <label for="firstName">First Name:</label><br /><input type="text" id="firstName" name="firstName" value=""><br />
-        <label for="lastName">Last Name:</label><br /><input type="text" id="lastName" name="lastName" value=""><br />
-        <label for="phone">Phone Number:</label><br /><input type="text" id="phone" name="phone" value=""><br />
+      </section>
 
-        <!-- select type form -->
-        <label for="contact">Best time to call:</label><br />
-        <select id="contact" name="contact">
+      <section id="sectionContent">
+
+        <h2>Information Request</h2>
+        <!-- This is a form -->
+        <form action="submit.html" method="post">
+
+          <!-- input type text form -->
+          <label for="firstName">First Name:</label><br /><input type="text" id="firstName" name="firstName" value=""><br />
+          <label for="lastName">Last Name:</label><br /><input type="text" id="lastName" name="lastName" value=""><br />
+          <label for="phone">Phone Number:</label><br /><input type="text" id="phone" name="phone" value=""><br />
+
+          <!-- select type form -->
+          <label for="contact">Best time to call:</label><br />
+          <select id="contact" name="contact">
           <option value="default" selected>--Select one--</option>
           <option value="morning">Morning(8AM to 12PM Eastern)</option>
           <option value="afternoon">Afternoon(12PM to 5PM Eastern)</option>
           <option value="evening">Evening(5AM to 8PM Eastern)</option>
         </select><br /><br />
 
-        <!-- input type checkbox form -->
-        <fieldset>
-          <legend>I am interested in(check all that apply):</legend>
-          <input type="checkbox" id="frontEnd" name="interest" value="frontEnd"><label for="frontEnd">Front End Web Development</label><br />
-          <input type="checkbox" id="backEnd" name="interest" value="backEnd"><label for="backEnd">Back End Web Development</label><br />
-          <input type="checkbox" id="database" name="interest" value="database"><label for="database">Database Design</label><br />
-        </fieldset><br />
-
-          <!-- input type radio form -->
+          <!-- input type checkbox form -->
           <fieldset>
-            <legend>I have filled in the client questionnaire form:</legend>
-            <input type="radio" id="choice1" name="questionnaire" value="yes"><label for="choice1">Yes</label><br />
-            <input type="radio" id="choice2" name="questionnaire" value="no"><label for="choice2">No</label><br />
-        </fieldset><br />
+            <legend>I am interested in contacting you about your skills in (check all that apply):</legend>
+            <input type="checkbox" id="frontEnd" name="interest" value="frontEnd"><label for="frontEnd">Front End Web Development</label><br />
+            <input type="checkbox" id="backEnd" name="interest" value="backEnd"><label for="backEnd">Back End Web Development</label><br />
+            <input type="checkbox" id="database" name="interest" value="database"><label for="database">Database Design</label><br />
+            </fieldset><br />
+
+            <!-- input type radio form -->
+            <!--
+              <fieldset>
+                <legend>I have filled in the client questionnaire form:</legend>
+                <input type="radio" id="choice1" name="questionnaire" value="yes"><label for="choice1">Yes</label><br />
+                <input type="radio" id="choice2" name="questionnaire" value="no"><label for="choice2">No</label><br />
+              </fieldset><br />
+            -->
 
             <!-- textarea form -->
-            <label for="info">Additional Information</label><br />
-            <textarea id="info" name="info"></textarea>
-            <input type="submit" name="submit" value="Submit" />
+            <!--
+                <label for="info">Additional Information</label><br />
+                <textarea id="info" name="info"></textarea>
 
-      </form>
+              -->
+            <input type="submit" name="submit" value="Submit" style="margin-bottom: 10px"/>
+          </form>
+      </section>
 
-            <footer>
-            </footer>
-
+      <footer>
+        <p>&copy; 2018 Jason Chan. All rights reserved.</p>
+      </footer>
     </main>
   </body>
 
