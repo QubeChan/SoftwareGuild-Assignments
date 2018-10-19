@@ -2,7 +2,7 @@
 <!--
 Name: Jason Chan
 Date Created: Oct. 16, 2018
-Most recent revision:
+Most recent revision: Oct. 18, 2018
 -->
 <html lang="en">
 
@@ -11,6 +11,8 @@ Most recent revision:
   <head>
     <link rel="icon" href="images/ic_chocobo.png">
     <title>Jason's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="styles/teststyles.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
   </head>
 
   <body>
@@ -19,11 +21,16 @@ Most recent revision:
       <header>
         <h1>Contact Me</h1>
       </header>
-      <hr />
 
       <!-- This is the nav bar -->
       <nav>
-        <p><a href="index.html">Home</a></p>
+        <hr />
+        <ul id="navBar">
+          <li class="navBar"><a href="index.html">Home</a></li>
+          <li class="navBar"><a href="projects.html">Projects</a></li>
+          <li class="navBar"><a href="contact.html">Contact Me</a></li>
+          <li class="navBar"><a href="testimonials.html">Testimonials</a></li>
+        </ul>
         <hr />
       </nav>
 
@@ -53,22 +60,22 @@ Most recent revision:
           <input type="checkbox" id="database" name="interest" value="database"><label for="database">Database Design</label><br />
         </fieldset><br />
 
-        <!-- input type radio form -->
-        <fieldset>
-          <legend>I have filled in the client questionnaire form:</legend>
-          <input type="radio" id="choice1" name="questionnaire" value="yes"><label for="choice1">Yes</label><br />
-          <input type="radio" id="choice2" name="questionnaire" value="no"><label for="choice2">No</label><br />
+          <!-- input type radio form -->
+          <fieldset>
+            <legend>I have filled in the client questionnaire form:</legend>
+            <input type="radio" id="choice1" name="questionnaire" value="yes"><label for="choice1">Yes</label><br />
+            <input type="radio" id="choice2" name="questionnaire" value="no"><label for="choice2">No</label><br />
         </fieldset><br />
 
-        <!-- textarea form -->
-        <label for="info">Additional Information</label><br />
-        <textarea id="info" name="info"></textarea>
-        <input type="submit" name="submit" value="Submit" />
+            <!-- textarea form -->
+            <label for="info">Additional Information</label><br />
+            <textarea id="info" name="info"></textarea>
+            <input type="submit" name="submit" value="Submit" />
 
       </form>
 
-      <footer>
-      </footer>
+            <footer>
+            </footer>
 
     </main>
   </body>
