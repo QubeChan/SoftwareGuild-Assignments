@@ -1,55 +1,101 @@
 <!DOCTYPE html>
+<!--
+Name: Jason Chan
+Date Created: Oct. 19, 2018
+Most recent revision:
+-->
 <html lang="en" dir="ltr">
 
   <head>
     <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" type="text/css" href="styles/contentteststyles.css">
+    <title>Jason's Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="styles/default.css">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-    <style>
-      body {
-        font-family: 'Ubuntu', sans-serif;
-      }
-
-      figure {
-        margin: 0;
-      }
-
-      .cardView {
-        margin-left: 5%;
-        margin-right: 5%;
-        width: 90%;
-        background-color: #f0f0f0;
-        border: 2px solid #c0c0c0;
-        overflow: hidden;
-      }
-
-      .cardImage {
-        margin: 10px;
-        width: 30%;
-        float: left;
-      }
-
-      .cardContent {
-        margin: 0;
-      }
-    </style>
   </head>
 
   <body>
-    <section class="cardView">
-      <figure>
-        <img src="images/brook.jpg" alt="Profile Photo" class="cardImage">
-      </figure>
+    <main>
+      <header>
+        <img src="images/cubes.svg" alt="" id="logo">
+        <h1>QUBES WEBPAGE</h1>
+      </header>
 
-      <article>
-        <h3>About Me</h3>
-        <p class="cardContent">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-      </article>
-    </section>
+      <section class="personalLinks">
+        <h2>PERSONAL LINKS</h2><br />
+
+        <section class="row">
+          <a href="https://github.com/QubeChan">
+            <div class="cardVertical firstPersonalCardMarginLeft">
+              <figure>
+                <img src="images/github.svg" alt="github logo" class="portfolioLogo">
+              </figure>
+
+              <section>
+                <h2>GITHUB</h2>
+              </section><br />
+            </div>
+          </a>
+
+          <a href="https://www.linkedin.com/in/jason-chan/QubeChan">
+            <div class="cardVertical">
+              <figure>
+                <img src="images/linkedin.svg" alt="linkedin logo" class="portfolioLogo">
+              </figure>
+
+              <section>
+                  <h2>LINKEDIN</h2>
+              </section><br />
+            </div>
+          </a>
+
+          <a href="https://qubechan.wordpress.com/">
+            <div class="cardVertical">
+              <figure>
+                <img src="images/wordpress.svg" alt="wordpress logo" class="portfolioLogo">
+              </figure>
+
+              <section>
+                <h2>BLOG</h2>
+              </section><br />
+            </div>
+          </a>
+        </section><br /><br />
+      </section>
+
+      <section class="projectLinks">
+        <h2>PROJECT LINKS</h2><br />
+
+        <section class="row">
+          <a href="http://spadrashop.com/LAGCC/jason/portfolio/">
+            <div class="cardVertical firstPortfolioCardMarginLeft">
+              <figure>
+                <img src="images/user-circle.svg" alt="portfolio logo" class="portfolioLogo">
+              </figure>
+
+              <section>
+                <h3>PORTFOLIO</h3>
+              </section><br />
+            </div>
+          </a>
+
+          <a href="http://spadrashop.com/LAGCC/jason/Restaurant%20Site/">
+            <div class="cardVertical">
+              <figure>
+                <img src="images/lemon.svg" alt="linkedin logo" class="portfolioLogo">
+              </figure>
+
+              <section>
+                  <h3>RESTAURANT</h3>
+              </section><br />
+            </div>
+          </a>
+
+        </section><br /><br />
+      </section>
+
+        <footer>
+        </footer>
+    </main>
   </body>
 
 </html>
