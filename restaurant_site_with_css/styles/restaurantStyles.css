@@ -1,7 +1,8 @@
 body {
   font-family: 'Open Sans', sans-serif;
   background-color: #E3BCAE;
-  text-shadow: 1px 1px #dedede;
+  text-shadow: 1px 1px #FFE7DF;
+  color: #55362b;
 }
 
 header, footer {
@@ -47,5 +48,6 @@ a:active {
 
 .navLink {
   text-align: center;
-  font-weight: bold;
+  font-weight: normal;
+  font-style: normal;
 }
