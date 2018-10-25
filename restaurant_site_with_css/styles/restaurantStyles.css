@@ -1,0 +1,51 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #E3BCAE;
+  text-shadow: 1px 1px #dedede;
+}
+
+header, footer {
+  text-align: center;
+  font-family: 'Libre Barcode 39 Text', cursive;
+  margin: 30px;
+}
+
+footer {
+  margin-top: 100px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h5 {
+  text-align: center;
+  font-weight: bold;
+}
+
+a:link {
+  color: #4B2A35
+}
+
+a:visited {
+  color: #BF360C;
+}
+
+a:hover {
+  font-weight: bold;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.imgLogo {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.navLink {
+  text-align: center;
+  font-weight: bold;
+}
