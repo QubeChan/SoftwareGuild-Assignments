@@ -1,0 +1,63 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #E3BCAE;
+  text-shadow: 1px 1px 5px white, -1px -1px 5px white;
+  color: #472519;
+}
+
+header, footer {
+  text-align: center;
+  font-family: 'Libre Barcode 39 Text', cursive;
+  margin: 30px;
+}
+
+footer {
+  margin-top: 100px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* h5 {
+  text-align: center;
+  font-weight: bold;
+} */
+
+a:link {
+  color: #4B2A35
+}
+
+a:visited {
+  color: #BF360C;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.jumbotron {
+  background-color: #C08E7B;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-image: url("../images/imgJumbotron.jpg");
+  background-size: 100%;
+  box-shadow: 0px 15px 38px rgba(0, 0, 0, 0.30), 0px 12px 12px rgba(0, 0, 0, 0.22);
+}
+
+.navBar {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+#jumbotronRestaurantName {
+  font-size: 90px;
+  text-shadow: 1px 1px 5px white, -1px -1px 5px white, 0 0 15px black;
+}
+
+#newUpdate {
+  font-family: 'Open Sans', sans-serif;
+  text-shadow: 1px 1px 5px white, -1px -1px 5px white, 0 0 15px black;
+}
