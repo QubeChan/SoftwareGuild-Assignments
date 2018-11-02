@@ -33,7 +33,7 @@ Most recent revision:
         <!-- end of jumbotron -->
       </div>
 
-      <!-- nav bar using pills -->
+      <!-- nav bar using tabs -->
       <nav class="container navBar">
         <ul class="nav nav-tabs nav-fill justify-content-center">
           <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-home" style="font-size:18px;"></i>&nbsp&nbspHome</a></li>
@@ -43,8 +43,108 @@ Most recent revision:
         <!-- end of nav -->
       </nav>
 
-      <!-- form -->
-      <form>
+      <!-- form begins -->
+      <form class="needs-validation container" name="formContact" onsubmit="return validateForm();" novalidate>
+
+        <!-- first row -->
+        <div class="form-row">
+          <div class="col"></div>
+
+          <!-- first name field -->
+          <div class="col-4 mb-3">
+            <label for="firstName">First Name</label>
+            <input type="text" id="firstName" class="form-control" placeholder="First Name" required>
+          </div>
+          <!-- last name field -->
+          <div class="col-4 mb-3">
+            <label for="lastName">Last Name</label>
+            <input type="text" id="lastName" class="form-control" placeholder="Last Name" required>
+          </div>
+
+          <div class="col"></div>
+          <!-- end of first row -->
+        </div>
+
+        <!-- second row -->
+        <div class="form-row">
+          <div class="col"></div>
+
+          <!-- email field -->
+          <div class="col-4 mb-3">
+            <label for="email">Email</label>
+            <input type="text" id="email" class="form-control" placeholder="Email" required>
+          </div>
+          <!-- phone number field -->
+          <div class="col-4 mb-3">
+            <label for="phoneNum">Phone Number</label>
+            <input type="number" id="phoneNum" class="form-control" placeholder="Phone #" required>
+          </div>
+
+          <div class="col"></div>
+          <!-- end of second row -->
+        </div>
+
+        <!-- third row -->
+        <div class="form-row">
+          <div class="col"></div>
+
+          <!-- inquiry field using select and options -->
+          <div class="col mb-3">
+            <label for="inquiry">Reason for Inquiry:</label>
+            <select id="inquiry" class="custom-select my-1 mr-sm-2" name="inquiry">
+              <option value="default" selected>Catering</option>
+              <option value="private">Private Party</option>
+              <option value="feedback">Feedback</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <!-- questionnaire field using radio -->
+          <fieldset class="form-group ml-3">
+            <legend class="col-form-label col pt-0">Have you been to the restaurant?</legend>
+            <div class="col">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="questionnaire" id="choiceYes" value="yes">
+                <label class="form-check-label" for="choiceYes">Yes</label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="questionnaire" id="choiceNo" value="no">
+                <label class="form-check-label" for="gridRadios2">No</label>
+              </div>
+            </div>
+          </fieldset>
+
+          <div class="col"></div>
+          <!-- end of third row -->
+        </div>
+
+        <!-- fourth row -->
+        <!-- <div class="form-row">
+          <div class="form-group">
+            <div class="form-check">
+              <label class="form-check-label" for="invalidCheck">Best days to contact you?</label>
+              <input class="form-check-input" type="checkbox" value="monday" id="monday"><label for="monday">M</label>
+              <input class="form-check-input" type="checkbox" value="tuesday" id="tuesday"><label for="tuesday">T</label>
+              <input class="form-check-input" type="checkbox" value="wednesday" id="wednesday"><label for="wednesday">W</label>
+              <input class="form-check-input" type="checkbox" value="thursday" id="thursday"><label for="thursday">Th</label>
+              <input class="form-check-input" type="checkbox" value="friday" id="friday"><label for="friday">F</label>
+            </div>
+          </div>
+        </div> -->
+
+        <!-- fifth row -->
+        <div class="form-row">
+          <div class="col"></div>
+
+          <!-- submit button -->
+          <div class="col-2">
+            <button type="submit" class="btn btn-secondary">Send Request</button>
+          </div>
+
+          <div class="col"></div>
+          <!-- end of fifth row -->
+        </div>
 
         <!-- end of form -->
       </form>
@@ -65,6 +165,7 @@ Most recent revision:
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="scripts/restaurantScripts.js"></script>
     <noscript>Your browser does not support JavaScript!</noscript>
   </body>
 
