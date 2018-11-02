@@ -19,6 +19,14 @@ footer {
   font-family: 'Open Sans', sans-serif;
 }
 
+p {
+  font-size: 14px;
+}
+
+th {
+  background-color: #bd8a75;
+}
+
 /* h5 {
   text-align: center;
   font-weight: bold;
@@ -54,6 +62,23 @@ a:active {
   text-align: center;
 }
 
+.menuItem {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.menuPrice{
+  text-align: center;
+}
+
+.marginTop {
+  margin-top: 50px;
+}
+
+.beverages {
+  text-align: center;
+}
+
 #jumbotronRestaurantName {
   font-size: 80px;
   text-shadow: 2px 2px 5px white, -2px -2px 5px white, 2px -2px 5px white, -2px 2px 5px white, 0 0 15px black;
@@ -68,6 +93,6 @@ a:active {
   text-shadow: 1px 1px 5px black, -1px -1px 5px black;
 }
 
-#articleDescription{
+#articleDescription {
   padding: 50px;
 }
