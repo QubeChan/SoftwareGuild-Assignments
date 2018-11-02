@@ -8,11 +8,14 @@ body {
 header, footer {
   text-align: center;
   font-family: 'Libre Barcode 39 Text', cursive;
-  margin: 30px;
 }
 
 footer {
+  /* position: fixed;
   margin-top: 100px;
+  bottom: 0;
+  left: 10%;
+  right: 10%; */
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -20,7 +23,6 @@ footer {
   text-align: center;
   font-weight: bold;
 } */
-
 a:link {
   color: #4B2A35
 }
@@ -41,8 +43,8 @@ a:active {
   background-color: #C08E7B;
   margin-top: 20px;
   margin-bottom: 20px;
-  background-image: url("../images/imgJumbotron.jpg");
-  background-size: 100%;
+  background-image: url("../images/menu.jpg");
+  background-size: cover;
   box-shadow: 0px 15px 38px rgba(0, 0, 0, 0.30), 0px 12px 12px rgba(0, 0, 0, 0.22);
 }
 
@@ -54,10 +56,18 @@ a:active {
 
 #jumbotronRestaurantName {
   font-size: 80px;
-  text-shadow: 1px 1px 5px white, -1px -1px 5px white, 0 0 15px black;
+  text-shadow: 2px 2px 5px white, -2px -2px 5px white, 2px -2px 5px white, -2px 2px 5px white, 0 0 15px black;
 }
 
 #newUpdate {
   font-family: 'Open Sans', sans-serif;
-  text-shadow: 1px 1px 5px white, -1px -1px 5px white, 0 0 15px black;
+  text-shadow: 2px 2px 5px white, -2px -2px 5px white, 2px -2px 5px white, -2px 2px 5px white, 0 0 15px black;
+}
+
+#carouselStyle {
+  text-shadow: 1px 1px 5px black, -1px -1px 5px black;
+}
+
+#articleDescription{
+  padding: 50px;
 }
