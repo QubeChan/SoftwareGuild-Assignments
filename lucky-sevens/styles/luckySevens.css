@@ -1,0 +1,30 @@
+.jumbotron {
+  margin-top: 20px;
+  background-image: url("../images/dice.jpg");
+  background-size: cover;
+}
+
+
+
+#jumbotronDisplay {
+  text-align: center;
+  text-shadow: 0 0 10px yellow;
+  color: turquoise;
+}
+
+#formDisplay {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#btnPlay {
+  margin-top: 20px;
+}
+
+#divResults {
+  display: none;
+}
+
+#tableName {
+  text-align: center;
+}

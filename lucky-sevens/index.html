@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Qube's Lucky Sevens</title>
+    <!-- boostrap css -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/luckySevens.css">
+  </head>
+
+  <body>
+    <main>
+
+      <!-- container -->
+      <section class="container">
+        <div class="jumbotron">
+          <h1 id="jumbotronDisplay"> Qube's Lucky Sevens</h1>
+        </div>
+
+        <!-- form start -->
+        <form id="formDisplay" class="form-group" onsubmit="return playGame();">
+
+          <!-- wager field -->
+          <div class="form-inline mb-2">
+            <label class="col" for="wager">Starting Bet</label>
+            <input id="wager" class="col" type="number" name="wager" placeholder="$0.00">
+          </div>
+
+          <!-- play button -->
+          <div class="form-inline">
+            <div class="col"></div>
+            <button id="btnPlay" class="col btn btn-success" type="submit" name="play">Play</button>
+            <div class="col"></div>
+          </div>
+        </form>
+
+        <!-- end of container -->
+      </section>
+
+      <!-- results table -->
+      <div id="divResults" class="container">
+        <h2 id="tableName">Results</h2>
+        <table class="table">
+          <tbody>
+            <tr>
+              <th>Starting Bet</td>
+              <td id="startBet">$#.##</td>
+            </tr>
+
+            <tr>
+              <th>Total Rolls Before Going Broke</td>
+              <td id="rollBroke">#</td>
+            </tr>
+
+            <tr>
+              <th>Highest Amount Won</td>
+              <td id="maxWon">$#.##</td>
+            </tr>
+
+            <tr>
+              <th>Roll Count at Highest Amount Won</td>
+              <td id="rollHigh">#</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+
+    <!-- CDN links copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="scripts/luckySevens.js">
+
+    </script>
+  </body>
+
+</html>
