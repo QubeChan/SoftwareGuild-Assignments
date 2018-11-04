@@ -1,6 +1,8 @@
 function playGame() {
   let startWager = parseInt(document.forms["formDisplay"]["wager"].value);
   let balance = startWager;
+  let highScore = 0;
+  let rollAtHighestBalance = 0;
   let rollCount = 0;
 
   if (startWager === "" || isNaN(startWager) || startWager <= 0) {
@@ -14,13 +16,19 @@ function playGame() {
     } else {
       balance -= 1;
     }
+
+    if (balance > highScore) {
+      highScore = balance;
+    }
+
     rollCount++;
     console.log(balance);
   }
 
   document.getElementById("divResults").style.display = "block";
   document.getElementById("startBet").innerText = `$ ${startWager}.00`;
-  document.getElementById("rollBroke").innerText = `${rollCount} rolls`;
+  document.getElementById("rollBroke").innerText = `${rollCount} roll(s)`;
+  document.getElementById("maxWon").innerText = `$${highScore}.00`;
   return false;
 }
 
